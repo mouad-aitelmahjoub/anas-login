@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Sulphur+Point:300,400,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/61e6417837.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>App - Login</title>
+    <title>App - Register</title>
 </head>
 <body>
     <div class="login">
@@ -16,7 +16,7 @@
             <!-- <i class="fas fa-gem login__logo-box__icon"></i> -->
         </div>
         <div class="login__link-box">
-            <a href="./register.html" class="login__link-box__link">Vous n'avez pas de compte? Inscrivez-vous ici &rarr;</a>
+            <a href="./login.html" class="login__link-box__link">Vous avez déja un compte? loggez-vous ici &rarr;</a>
         </div>
         <div class="login__headers">
             <h1 class="heading-primary">Diib inc.</h1>
@@ -29,8 +29,16 @@
                     <label for="username" class="form__label">Nom d'utilisateur</label>
                 </div>
                 <div class="form__group">
+                    <input type="email" id="email" class="form__input" placeholder="Email">
+                    <label for="email" class="form__label">Email</label>
+                </div>
+                <div class="form__group">
                     <input type="password" class="form__input" placeholder="Mot de passe">
                     <label for="password" class="form__label">Mot de passe</label>
+                </div>
+                <div class="form__group">
+                    <input type="password" class="form__input" placeholder="Retapez le Mot de passe">
+                    <label for="password" class="form__label">Retapez le Mot de passe</label>
                 </div>
                 <a class="btn" href="#">Se connecter</a>
             </form>

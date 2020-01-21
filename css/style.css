@@ -95,6 +95,26 @@ body {
   visibility: hidden;
   transform: translateY(-1rem); }
 
+.header {
+  height: 4.5rem;
+  display: grid;
+  grid-template-columns: 5% auto 10%;
+  background-color: #2962FF;
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.2); }
+  .header__logo-box {
+    text-align: center; }
+    .header__logo-box__icon {
+      color: #ffffff;
+      font-size: 2.5rem;
+      margin: 1rem 0; }
+  .header__status-icons {
+    text-align: center; }
+    .header__status-icons__icon {
+      color: #BFD0FF;
+      font-size: 2rem;
+      margin-top: 1rem;
+      margin-right: 1rem; }
+
 .login {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(125, 201, 231, 0.8), rgba(170, 208, 217, 0.8)), url(../img/hero.jpg);
